@@ -13,5 +13,6 @@ ruby 2.6.10p210 (2022-04-12 revision 67958) [universal.arm64e-darwin22]
 ```
 ruby fcpx_chapter_extractor.rb /Users/swift2geek/Desktop/France.fcpxml
 ```
+Replace "/Users/valter/Desktop/France.fcpxml" with the path to the FCPX XML file you want to extract the chapters from.
 
 - The app will output the name and start time of each chapter in the FCPX XML file.
