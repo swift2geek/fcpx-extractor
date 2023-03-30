@@ -1,3 +1,4 @@
+# encoding: utf-8
 require 'nokogiri'
 
 def extract_chapters(fcpxml_file)
@@ -10,7 +11,7 @@ def extract_chapters(fcpxml_file)
   xml.xpath('//chapter-marker').each do |element|
     if element.key?('start')
       start_time = element['start'].to_f
-      name = element['value']
+      name = element['value'].force_encoding("UTF-8")
       chapters << { 'name' => name, 'start' => start_time + time }
     end
   end
@@ -19,7 +20,7 @@ def extract_chapters(fcpxml_file)
     next unless element.key?('chapterName') && element.key?('start')
 
     start_time = element['start'].to_f
-    name = element['chapterName']
+    name = element['chapterName'].force_encoding("UTF-8")
     chapters << { 'name' => name, 'start' => start_time + time }
   end
 
@@ -36,7 +37,7 @@ def main
   chapters = extract_chapters(fcpxml_file)
 
   chapters.each do |chapter|
-    puts "#{chapter['name']} - #{chapter['start']}"
+    puts "#{chapter['name']} - #{chapter['start']}".encode('UTF-8')
   end
 end
 
