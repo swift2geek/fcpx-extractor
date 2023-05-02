@@ -1,10 +1,11 @@
 # FCPX Chapter Marker Extractor
 
-This tool extracts chapter markers from Final Cut Pro X (.fcpxml) files and outputs the markers as a formatted list of chapters. The tool can be used as a standalone Python script or as a Quick Action on macOS.
+This tool extracts chapter markers from Final Cut Pro X (.fcpxml) files and outputs the markers as a formatted list of chapters. The tool can be used as a standalone Python script or as a Quick Action on macOS. This tool is especially useful for YouTubers, allowing them to easily extract timestamps for their video descriptions.
 
 ## Table of Contents
 
 - [Requirements](#requirements)
+- [Useful for YouTubers](#useful-for-youtubers)
 - [Using the Python Script](#using-the-python-script)
 - [Using the Quick Action on macOS](#using-the-quick-action-on-macos)
 - [Installing the Quick Action](#installing-the-quick-action)
@@ -14,6 +15,10 @@ This tool extracts chapter markers from Final Cut Pro X (.fcpxml) files and outp
 
 - Python 3 (tested on Python 3.10)
 - macOS (for the Quick Action)
+
+## Useful for YouTubers
+
+This tool can be highly beneficial for YouTubers. If you edit your videos using Final Cut Pro X, you can use this tool to extract chapter markers from your project files. This allows you to easily create a list of timestamps for your video description on YouTube, improving the viewer experience by providing easy navigation through different sections of your video.
 
 ## Using the Python Script
 
