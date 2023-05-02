@@ -27,15 +27,9 @@ To use the Python script, follow these steps:
 
 cd /path/to/script_directory
 
-vbnet
-Copy code
-
 4. Run the script, providing the path to your .fcpxml file as an argument:
 
 python3 fcpx_chapter_extractor.py /path/to/your/file.fcpxml
-
-lua
-Copy code
 
 The script will parse the .fcpxml file and output the extracted chapter markers in the following format:
 
@@ -44,9 +38,6 @@ Chapters:
 00:22 Chapter 2
 01:30 Chapter 3
 ...
-
-vbnet
-Copy code
 
 ## Using the Quick Action on macOS
 
@@ -58,7 +49,7 @@ The Quick Action allows you to extract chapter markers directly from the context
 
 3. In the context menu, go to "Quick Actions" and select the FCPX Chapter Marker Extractor Quick Action.
 
-The chapter markers will be extracted and copied to the clipboard, allowing you to paste them into another application.
+The chapter markers will be extracted and copied to the clipboard, allowing you to paste them into another application or YouTube video directly.
 
 ## Installing the Quick Action
 
@@ -66,7 +57,7 @@ To install the Quick Action on macOS, follow these steps:
 
 1. Clone or download this repository.
 
-2. Double-click on the exported Quick Action file (FCPX-Chapter-Marker-Extractor.workflow or similar) to open it in Automator.
+2. Double-click on the exported Quick Action file (Get-FCPX-Chapters.workflow) to open it in Automator.
 
 3. In Automator, click "Install" to install the Quick Action.
 
