@@ -74,6 +74,7 @@ If you encounter any issues while using the script or the Quick Action, please c
 
 - Ensure you're using Python 3. The script may not work correctly with older versions of Python.
 - Make sure the path to the .fcpxml file is correct when running the script.
+- Make sure you are using correct .fcpxml file and not newer one .fcpxmld (tested on fcpxml file version 1.09).
 - If using the Quick Action, ensure that the Quick Action is installed correctly and that the Python script is accessible on your system.
 
 If you still encounter issues, please open a GitHub issue or contact the repository maintainer for assistance.
