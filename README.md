@@ -47,7 +47,7 @@ The Quick Action allows you to extract chapter markers directly from the context
 
 2. In Finder, right-click on a .fcpxml file.
 
-3. In the context menu, go to "Quick Actions" and select the FCPX Chapter Marker Extractor Quick Action.
+3. In the context menu, go to "Quick Actions" and select the Get-FCPX-Chapters Quick Action.
 
 The chapter markers will be extracted and copied to the clipboard, allowing you to paste them into another application or YouTube video directly.
 
