@@ -34,9 +34,9 @@ python3 fcpx_chapter_extractor.py /path/to/your/file.fcpxml
 The script will parse the .fcpxml file and output the extracted chapter markers in the following format:
 
 Chapters:
-00:00 Chapter 1
-00:22 Chapter 2
-01:30 Chapter 3
+00:00 Chapter 1   
+00:22 Chapter 2   
+01:30 Chapter 3   
 ...
 
 ## Using the Quick Action on macOS
